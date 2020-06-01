@@ -1,5 +1,8 @@
+newrelic.js
+
 # node modules
 /node_modules/
 
 # public files
 /public/
+newrelic_agent.log
