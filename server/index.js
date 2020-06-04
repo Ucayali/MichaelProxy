@@ -9,7 +9,7 @@ const port = process.env.PORT || 5533;
 app.use(express.static(path.join(__dirname, '../public')));
 
 app.use('/api/items/:id', createProxyMiddleware({
-  target: 'http://localhost:3001/',
+  target: 'http://18.144.62.170:3001/',
   changeOrigin: true,
 }));
 
